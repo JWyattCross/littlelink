@@ -1,0 +1,12 @@
+{
+  "redirects": [
+    {
+			"source": "/linkedin",
+			"destination": "https://www.linkedin.com/in/james-w-cross"
+    },
+    {
+			"source": "/portfolio",
+			"destination": "https://portfolio.wcross.dev"
+		}
+  ]
+}

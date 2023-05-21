@@ -1,0 +1,22 @@
+/* .background  {
+    background: #7c7c7ce6;
+    filter: blur(5px) brightness(0.5);
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%; width:100%;
+} */
+
+
+.background {
+    background: #004db1e6;
+    backdrop-filter: blur(10px) brightness(0.5) saturate(50%);
+  }
+  
+  /* to make the header only as wide as the content and centering it */
+  
+.background {
+    /* width: min-content; */
+    padding: 5px;
+    margin: 15px;
+    border-radius: 20px;
+}

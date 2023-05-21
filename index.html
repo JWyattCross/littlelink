@@ -22,6 +22,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/skeleton-dark.css" />
+    <link rel="stylesheet" href="css/custom.css" />
     <!--changed light to dark -->
     <link rel="stylesheet" href="css/brands.css" />
 
@@ -33,21 +34,23 @@
     />
   </head>
 
+  <style>
+    body {
+      background-image: url('images/KTPA_Flights_Startrails.JPG');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+    }
+    </style>
   <body>
     <!-- Primary Page Layout -->
     <div class="container">
       <div class="row">
         <div class="column" style="margin-top: 10%">
-          <!-- Your Image Here -->
-          <a
-            href="https://www.nasa.gov/centers/dryden/multimedia/imagegallery/SR-71/EC92-7013-4.html"
-            target="_blank"
-          >
-            <img class="headerimage" src="images/sr-71.jpg"
-          /></a>
 
           <!-- Your Name -->
-          <h1>James Wyatt Cross</h1>
+          <h1 class="background">James <q>Wyatt</q> Cross</h1>
 
           <!-- LinkedIn -->
           <a
@@ -58,6 +61,24 @@
             ><img class="icon" src="icons/linkedin.svg" />LinkedIn</a
           >
           <br />
+
+           <!-- Github -->
+           <a
+           class="button button-github"
+           href="https://github.com/JWyattCross"
+           target="_blank"
+           rel="noopener"
+           ><img class="icon" src="icons/github.svg" />GitHub</a
+         >
+         <!-- YouTube -->
+         <a
+         class="button button-youtube"
+         href="https://www.youtube.com/channel/UC7iA22pGr_bZJJeL5IvDTpg"
+         target="_blank"
+         rel="noopener"
+         ><img class="icon" src="icons/youtube.svg" />YouTube</a
+       >
+       <br />
 
           <!-- Portfolio -->
           <!-- <a
@@ -79,47 +100,16 @@
           >
           <br />
 
-          <!-- Matlab -->
-          <!-- <a
-            class="button button-matlab"
-            href="https://www.mathworks.com/matlabcentral/profile/authors/24171230"
-            target="_blank"
-            rel="noopener"
-            ><i class="fas fa-laptop-code"></i> Matlab</a
-          >
-          <br /> -->
+          
 
-          <!-- GrabCAD -->
-          <!-- <a
-            class="button button-grabcad"
-            href="https://grabcad.com/james.cross-11"
-            target="_blank"
-            rel="noopener"
-            ><i class="fas fa-pencil-ruler"></i> GrabCAD</a
-          >
-          <br /> -->
-
-          <!-- YouTube -->
+         
+          <!-- Email -->
           <a
-            class="button button-youtube"
-            href="https://www.youtube.com/channel/UC7iA22pGr_bZJJeL5IvDTpg"
+            class="button button-default"
+            href="mailto:mail@wcross.dev"
             target="_blank"
             rel="noopener"
-            ><img class="icon" src="icons/youtube.svg" />YouTube</a
-          >
-          <br />
-
-          <!-- Github -->
-          <a
-            class="button button-github"
-            href="https://github.com/JWyattCross"
-            target="_blank"
-            rel="noopener"
-            ><img class="icon" src="icons/github.svg" />GitHub</a
-          >
-          <br />
-          <a href="mailto:mail@wcross.dev" target="_blank" rel="noopener"
-            >w@wcross.dev</a
+            ><i class="fas fa-envelope"></i> w@wcross.dev</a
           >
         </div>
       </div>

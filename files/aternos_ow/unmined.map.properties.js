@@ -7,8 +7,8 @@ var UnminedMapProperties = {
     minRegionX: -9,
     minRegionZ: -6,
     maxRegionX: 8,
-    maxRegionZ: 2,
-    worldName: "Wyatt's Lab V",
+    maxRegionZ: 5,
+    worldName: "Cape Canaveral Spaceport (World 2)",
     background: "",
     markers: new Array()
 }

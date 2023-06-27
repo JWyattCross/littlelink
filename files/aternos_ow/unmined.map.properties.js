@@ -4,11 +4,11 @@ var UnminedMapProperties = {
     maxZoom: 2,
     defaultZoom: 0,
     imageFormat: "bmp",
-    minRegionX: -9,
+    minRegionX: -10,
     minRegionZ: -17,
     maxRegionX: 10,
-    maxRegionZ: 5,
-    worldName: "Cape Canaveral Spaceport (World 2)-2",
+    maxRegionZ: 9,
+    worldName: "Cape Canaveral Spaceport (World 2)-3",
     background: "",
     markers: new Array()
 }

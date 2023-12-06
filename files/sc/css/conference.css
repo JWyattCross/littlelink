@@ -1,0 +1,228 @@
+/*demo page css*/
+body {
+  font: 12px "Trebuchet MS", sans-serif;
+  margin: 5px;
+}
+
+#headerlogo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tabs-centre .ui-tabs-nav {
+	height: 2.35em;
+	text-align: center;
+}
+#tabs-centre .ui-tabs-nav li {
+	display: inline-block;
+	float: none;
+	margin: 0em;
+}
+
+.clear {
+  clear: both;
+}
+.clear_left {
+  clear: left;
+}
+
+.center, #program {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  text-align: left;
+}
+
+#ng_img1 {
+  float: right;
+  margin: 5px;
+}
+
+#ng_img2 {
+  float: left;
+  margin: 5px;
+}
+
+#tabs {
+  width: 1024px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,h2,h3,h4 {
+  color: #039;
+}
+h4 {
+  text-align: left;
+}
+p {
+  text-align: justify;
+}
+
+#home {
+  text-align: center;
+}
+
+.footer {
+  font-size: 10px;
+  text-align: center;
+}
+
+#home .collage {
+  width: 500px;
+  border: 1px solid grey;
+  padding: 30px;
+}
+
+#schedule table, #sponsors table, #proceedings table {
+  text-align: left;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sponsors table {
+  border-spacing: 20px;
+  border-collapse: separate;
+}
+#sponsors table td {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 1px solid grey;
+  margin: 10px;
+  padding: 20px;
+}
+
+#sponsors table td img {
+  width: 250px;
+  border: solid 1px transparent;
+  padding: 3px;
+}
+#sponsors table td a img:hover {
+  border-color: blue;
+}
+
+#schedule table tr>:first-child {
+  width: 200px;
+}
+
+#speakers img,#events img {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+#speakers .bio {
+  margin-left: 210px;
+}
+#speakers .clear,#hosts .clear, #events img {
+  padding-bottom: 40px;
+}
+
+#location_image {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+#location_text {
+  width: 700px;
+  position: relative;
+  float: right;
+}
+.left_host_image {
+  position: relative;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+.right_host_image {
+  position: relative;
+  width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+.host_image {
+  position: relative;
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+.host_image_container {
+  height: 250px;
+}
+.host_image_helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.host_text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+.cohost_left {
+  width: 48%;
+  float: left;
+}
+.cohost_right {
+  width: 48%;
+  float: right;
+}
+
+.event_text {
+  width: 675px;
+  margin-left: 275px;
+}
+
+#hosts h3,ul {
+  text-align: left;
+}
+
+#categories {
+  text-align: left;
+  margin-top: 10px;
+}
+
+#proceedings .proc_presenter, #proceedings .proc_school {
+  width: 150px;
+}
+
+.more_link img {
+  border: 0;
+}
+
+.hor-minimalist-a
+{
+	background: #fff;
+	margin: 15px;
+	width: 480px;
+	border-collapse: collapse;
+	text-align: left;
+}
+.hor-minimalist-a th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+.hor-minimalist-a td
+{
+	padding: 9px 8px 0px 8px;
+}
+.hor-minimalist-a tbody tr:hover td
+{
+	color: #009;
+}
+

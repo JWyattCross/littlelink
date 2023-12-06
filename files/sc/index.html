@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Welcome to the 74th Annual AIAA Region II Student Conference - 2023</title>
+  <link type="text/css" href="css/smoothness/jquery-ui-1.8.18.custom.css" rel="stylesheet" />
+  <link type="text/css" href="css/conference.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.8.18.custom.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('#categories').accordion({
+        collapsible: true,
+        autoHeight: false
+      });
+      $('#categories').accordion('activate', false);
+
+      $('#tabs').tabs();
+
+      $('.more_info').dialog({
+        autoOpen: false,
+        minHeight: 300,
+        minWidth: 700
+      });
+      $('.more_link').click(function () {
+        var key = $(this).attr('key');
+        if (key) {
+          $('#info_' + key).dialog('open');
+        }
+      });
+
+    });
+  </script>
+</head>
+
+<body>
+  <div id="header">
+    <div id="headerlogo" class="logo"><img src="images/header.png"></div>
+  </div>
+  <div class="clear"></div>
+
+  <div id="tabs">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#speakers">Speakers</a></li>
+      <li><a href="#location">Location Info</a></li>
+      <li><a href="#sponsors">Sponsors/Partners</a></li>
+      <li><a href="#hosts">Host School</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#proceedings">Proceedings</a></li>
+    </ul>
+
+    <div id="home">
+      <h1>Welcome to the 74th Annual<br />AIAA Southeastern Regional Student Conference</h1>
+
+      <h2>Knoxville, Tennessee<br />
+        March 27th - 28th, 2023</h2>
+
+      <img class="collage" src="images/collage.png">
+
+      <h2>Hosted by the University of Tennessee</h2>
+      <h3>with support from University of Tennessee Space Institute and Tennessee Tech University</h3>
+    </div>
+
+    <div id="schedule">
+      <h1>Conference Schedule</h1>
+      <div class="program"><a href="files/2023_program.pdf" target="_blank">View the 2023 Conference Program</a></div>
+      <table class="hor-minimalist-a">
+        <thead>
+          <tr>
+            <th colspan="2">Sunday, March 26th</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>4:00 pm - 10:00 pm</td>
+            <td>Check in</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="hor-minimalist-a">
+        <thead>
+          <tr>
+            <th colspan="2">Monday, March 27th</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>7:45 am</td>
+            <td>Opening Announcements</td>
+          </tr>
+          <tr>
+            <td>8:00 am - 8:30 am</td>
+            <td>Keynote</td>
+          </tr>
+          <tr>
+            <td>8:45 am - 12:00 pm</td>
+            <td>Technical sessions</td>
+          </tr>
+          <tr>
+            <td>12:00 pm - 2:00 pm</td>
+            <td>Luncheon & Speaker</td>
+          </tr>
+          <tr>
+            <td>2:00 pm - 5:15 pm</td>
+            <td>Technical sessions</td>
+          </tr>
+          <tr>
+            <td>6:00 pm - 8:00 pm</td>
+            <td>Monday Night Social</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="hor-minimalist-a">
+        <thead>
+          <tr>
+            <th colspan="2">Tuesday, March 28th</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>8:30 am - 11:15 am</td>
+            <td>Technical sessions</td>
+          </tr>
+          <tr>
+            <td>12:15 pm - 4:45 pm</td>
+            <td>Tours: Cirrus Aerospace, Oak Ridge National Laboratory, or MDF & Beehive Facilities</td>
+          </tr>
+          <tr>
+            <td>5:30 pm - 6:30 pm</td>
+            <td>Social Hour</td>
+          </tr>
+          <tr>
+            <td>6:30 pm - 9:00 pm</td>
+            <td>Awards Banquet</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="hor-minimalist-a">
+        <thead>
+          <tr>
+            <th colspan="2">Wednesday, March 29th</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>8:00 am - 10:00 am</td>
+            <td>Check out</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+    <div id="speakers">
+      <h1>Speaker Profiles</h1>
+      <hr />
+    
+      <div class="bio">
+        <h2>Katherine P. Van Hooser<br />Chief Engineer, Marshall Space Flight Center</h2>
+      </div>
+      <img src="speakers/keynote_vanhooser.jpg" width="200px">
+      <div class="bio">
+        <p>
+          Ms. Katherine Van Hooser has served as the Chief Engineer at Marshall Space Flight Center since she was appointed
+          to
+          the Senior Executive Service in April 2016. She is responsible for technical leadership in planning, directing,
+          and
+          executing research, technology, design, development, production, integration, and sustaining engineering for the
+          Space
+          Launch System (SLS) Program, the Human Exploration Development and Operations Office, and the Science and
+          Technology
+          Office.
+        </p>
+        <p>
+          From 1991 to 2005, Van Hooser served as engineer, Team Lead, and then Branch Chief in Turbomachinery, responsible
+          for
+          managing the design, development, testing, evaluation, certification, production, and flight of liquid rocket
+          engine
+          turbomachinery for use in space vehicle applications. She became Space Shuttle Main Engine (SSME) Assistant Chief
+          Engineer in 2005 and SSME Chief Engineer in 2008, leading a multi-disciplined group of engineers and other
+          professional and support personnel through the last 21 Space Shuttle flights.
+        </p>
+        <p>
+          In 2011, Van Hooser became the first Chief Engineer for the Liquid Engines Element of the SLS Program, responsible
+          for
+          the engineering activities, technical excellence, and success of the design and adaptation of the J-2X and RS-25
+          engines, and served in 2012 on a detail assignment as Deputy Chief Engineer for the SLS Program.
+        </p>
+        <p>
+          Van Hooser served as Acting Associate Director of Engineering for Technical Management from 2013 to 2015. In this
+          15-month assignment, she assisted in the leadership of an organization of approximately 2,600 civil servants and
+          contractors and served as a member of the overall strategic planning staff. She also served as the coordinator for
+          all
+          engineering activities supporting the Agency's Technical Capability Assessment Team.
+        </p>
+        <p>
+          In 2015, Van Hooser became Deputy Director of the Materials & Processes Laboratory, assisting in the oversight and
+          management of an annual budget of approximately $54M and a combined workforce of more than 250 civil servants and
+          contractors engaged in science, technology, and engineering for materials, processes, and products for use in
+          space
+          vehicles and related applications.
+        </p>
+        <p>
+          Van Hooser has received the NASA Distinguished Service Medal, NASA Exceptional Engineering Achievement Medal, a
+          Silver
+          Snoopy Award, and NASA's Software of the Year Award. She has authored multiple technical papers and was inducted
+          into
+          the University of Tennessee Mechanical, Aerospace, and Biomedical Engineering Hall of Fame in 2018.
+        </p>
+      </div>
+      <div class="clear"></div>
+      <hr />
+    
+      <div class="bio">
+        <h2>Brian Ade<br>Fuel Design Manager, Ultra Safe Nuclear Corporation</h2>
+      </div>
+      <img src="speakers/luncheon_ade.jpg" width="200px">
+      <div class="bio">
+        <p>
+          Brian Ade is the Fuel Design Manager at Ultra Safe Nuclear Corporation (USNC), where he leverages his expertise
+          and
+          experience to help integrate the reactor design and fuel manufacturing teams. Part of these responsibilities
+          include
+          development of USNC's manufacturing process for nuclear thermal propulsions fuel with combines coated particle
+          fuel
+          and additive manufacturing processes. Before joining USNC, Brian was a senior R&D staff researcher within the
+          Nuclear
+          Energy and Fuel Cycle Division of Oak Ridge National Laboratory specializing in reactor physics analyses, reactor
+          design, and nuclear nonproliferation R&D. While at ORNL, Brian led the design thrust for the Transformational
+          Challenge Reactor (TCR) program, which utilized additive manufacturing (3D printing) for critical core components
+          with
+          the goal to provide a revolutionary platform to dramatically reduce the deployment costs and timelines of nuclear
+          energy systems.
+        </p>
+      </div>
+      <div class="clear"></div>
+      <hr />
+    
+      <div class="bio">
+        <h2>Ralph D. Heath<br>Former Head, Lockheed Martin Aeronautics Company</h2>
+      </div>
+      <img src="speakers/banquet_heath.jpg" width="200px">
+      <div class="bio">
+        <p>
+          Ralph D. Heath is the former head of Lockheed Martin Aeronautics Company with over
+          $20 billion in annual revenue and 25,000 employees at nine operating sites. Products
+          include the F-16, F-22 and F-35 fighters, the C-130 and C-5 transports, and both
+          manned and unmanned reconnaissance aircraft. He currently serves on the board of
+          directors of Textron Corporation.
+        </p>
+        <p>
+          During his 40 plus year career, Ralph held a wide range of positions in design,
+          development, production and sustainment. He was a leader in international business,
+          personally engaging in more than 30 countries around the world.
+        </p>
+        <p>
+          Mr. Heath is an AIAA Fellow and was recipient of the 2005 Reed Aeronautics and 2012
+          Hap Arnold AIAA Awards. He is an emeritus member of the board of the Smithsonian
+          National Air and Space Museum. An Army veteran, Mr. Heath served nearly four years
+          on active duty. He holds BSEE and MBA degrees from the University of Tennessee, and
+          an FAA commercial pilot's license.
+        </p>
+      </div>
+      <div class="clear"></div>
+    
+    </div>
+
+    <div id="location">
+      <h1>Location Information</h1>
+
+      <div id="location_image">
+        <img src="images/knoxville.jpg" width="275px"><br />
+        <img src="images/utk_campus.jpg" width="275px">
+      </div>
+      <div id="location_text">
+        <p>
+          Knoxville is located in eastern Tennessee, with a population of approximately 190,000 residents. It is the
+          third-largest city in the state and is known for its vibrant downtown area, natural beauty, and rich history. The city
+          is home to several universities, including the University of Tennessee, which is a leading institution in the field of
+          aerospace engineering. Knoxville is also a hub for several industries, including healthcare, manufacturing, and
+          technology.
+        </p>
+        <p>
+          The aerospace engineering industry has a strong presence in Knoxville, with several companies and organizations
+          conducting research and development in the field. The Knoxville-Oak Ridge Innovation Valley is a regional economic
+          development partnership that focuses on recruiting and retaining high-tech companies in the area, including those in
+          the aerospace industry. The region is home to several major aerospace companies, including Boeing, Lockheed Martin,
+          and Northrop Grumman.
+        </p>
+        <p>
+          Knoxville is also home to several research centers and institutes that are focused on aerospace engineering, including
+          the University of Tennessee Space Institute and the Oak Ridge National Laboratory. These institutions conduct
+          cutting-edge research in areas such as propulsion systems, materials science, and space policy. With its strong
+          academic programs, research initiatives, and partnerships with industry and government agencies, Knoxville is a
+          valuable resource for the state of Tennessee and a leader in the field of aerospace engineering.
+        </p>
+
+        <h4>Conference Hotel Address</h4>
+
+        <p>
+          <a href="https://www.hilton.com/en/hotels/knxkhhf-hilton-knoxville/" target="_blank">Hilton Knoxville</a><br />
+          501 W Church Ave<br/>
+          Knoxville, TN 37902<br/>
+          865-523-2300
+        </p>
+
+        <h4>Attractions</h4>
+        <p>
+          Great Smoky Mountains National Park
+          <br />
+          Market Square
+          <br />
+          Knoxville Museum of Art
+          <br />
+          World's Fair Park
+          <br />
+          Tennessee Theatre
+          <br />
+          Knoxville Zoo
+          <br />
+          Ijams Nature Center
+          <br />
+          East Tennessee History Center
+          <br />
+          Women's Basketball Hall of Fame
+          <br />
+          McClung Museum of Natural History and Culture
+        </p>
+      </div>
+      <div class="clear"></div>
+
+    </div>
+
+    <div id="sponsors">
+      <h1>Sponsors & Partners</h1>
+
+      <table class="hor-minimalist-a">
+        <thead>
+          <tr>
+            <th colspan="2">National Sponsors</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://www.aiaafoundation.org" target="_blank"><img
+                  src="sponsors/logos/aiaa_foundation.png"></a></td>
+          </tr>
+          <tr>
+            <td><a href="https://www.lockheedmartin.com" target="_blank"><img src="sponsors/logos/lm.jpg"></a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="hor-minimalist-a">
+        <thead>
+          <tr>
+            <th colspan="2">Platinum Plus</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://gtri.gatech.edu/" target="_blank"><img src="sponsors/logos/GTRI.png"></a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="hor-minimalist-a">
+        <thead>
+          <tr>
+            <th colspan="2">Gold</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img src="sponsors/logos/bama_aem_alumni.png">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.jacobs.com/" target="_blank"><img src="sponsors/logos/jacobs-logo.png"></a>
+              <br /><br />
+              <a href="https://jseg.space" target="_blank">Jacobs Space Exploration Group</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://airbus.com" target="_blank"><img src="sponsors/logos/airbus-logo.jpg"></a>
+              <br /><br />
+              <a href="https://airbusgroup.applicantpro.com/jobsbyorganization/"
+                target="_blank">Airbus Careers</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h2>Gene Goldman</h2>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="hor-minimalist-a">
+        <thead>
+          <tr>
+            <th colspan="2">Silver</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="https://aerojetrocketdyne.com/foundation" target="_blank"><img src="sponsors/logos/aerojet.png"></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.moog.com/" target="_blank"><img src="sponsors/logos/Moog_logo_logotype.png"></a>
+              <br /><br />
+              <a href="sponsors/info/MOOG/Moog Inc Executive Summary_March2023-AIAA StudentConf.pdf" target="_blank">Moog
+                Executive Summary</a>
+                <br/>
+                <a href="https://www.youtube.com/watch?v=xvmbYGYzISs" target="_blank">Life at Moog: Welcome to Moog</a>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="sponsors/logos/classicengineeringlogo.jpg"></td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://axientcorp.com" target="_blank"><img src="sponsors/logos/axient-logo.jpg"></a>
+              <br/><br/>
+              <a href="sponsors/info/Axient/AXIENT Overview and Capabilities 2023.pdf" target="_blank">Overview and Capabilities</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.relativityspace.com" target="_blank"><img src="sponsors/logos/relativity.jpg"></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.dynetics.com" target="_blank"><img src="sponsors/logos/dynetics.png"></a>
+              <br/><br/>
+              <a href="https://careers.dynetics.com/job-listing.php" target="_blank">Dynetics Careers</a>
+              <br/>
+              <a href="https://www.leidos.com/company/our-business/dynetics" target="_blank">About Dynetics</a>
+              <br/>
+              <a href="https://www.youtube.com/watch?v=goVU2uTD-m8" target="_blank">Dynetics Summer Intern Video</a>
+ 
+
+            </td>
+          </tr>
+          <tr>
+            <td><a href="https://janusaerospace.com" target="_blank"><img src="sponsors/logos/janus-logo.jpg"></a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="hor-minimalist-a">
+        <thead>
+          <tr>
+            <th colspan="2">Bronze</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <h2>AIAA Greater Huntsville Professional Section</h2>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h2>Alan and Nikki Lowery</h2>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div id="hosts">
+      <h1>Host Schools</h1>
+
+      <div class="host_group">
+        <div classx="cohost_left">
+          <!-- <h2>University of Tennessee<br />Knoxville, TN</h2> -->
+          <img src="images/utk.jpg" width="475px" alt="University of Tennessee">
+          <p>
+            The <a href="https://www.utk.edu/" target="_blank">University of Tennessee</a>, located in Knoxville, is a public research university with a rich history dating back to
+            1794. It is the flagship institution of the University of Tennessee System, which includes multiple campuses and
+            institutes throughout the state. With over 28,000 undergraduate and 6,500 graduate students, UT Knoxville is one of
+            the largest universities in Tennessee and the southeastern region of the United States.
+          </p><p>
+            UT Knoxville offers over 360 undergraduate and graduate degree programs across 11 colleges, including the College of
+            Engineering, which is one of the largest colleges on campus. The College of Engineering offers 12 undergraduate degree
+            programs and 16 masters degree programs, with a total enrollment of approximately 6,500 students. The college is
+            known for its strong programs in aerospace engineering, biomedical engineering, and energy and sustainability
+            engineering.
+          </p><p>
+            The aerospace engineering program at UT Knoxville has a long history of excellence, dating back to the 1950s when the
+            university began offering courses in aeronautical engineering. In 2011, the university established the Aerospace and
+            Defense MBA program, which is designed to prepare students for leadership roles in the aerospace and defense
+            industries. UT Knoxville is also home to the Space Institute, which conducts research in areas such as space
+            propulsion, materials science, and space policy.
+          </p><p>
+            In recent years, UT Knoxville has made significant contributions to the field of aerospace engineering. In 2018,
+            researchers at the university developed a new method for designing and testing rocket engines, which could lead to
+            more efficient and reliable space travel. The university is also involved in several ongoing projects with NASA,
+            including the development of new materials for spacecraft and the study of solar wind interactions with Earth's
+            magnetic field. With its strong academic programs and research initiatives, UT Knoxville is a leading institution in
+            the field of aerospace engineering and a valuable resource for the state of Tennessee and beyond.
+          </p>
+        </div>
+      </div>
+      <hr/>
+      <div style="height: 20px"></div>
+      <div class="host_group">
+        <div class="cohost_left">
+          <div style="height: 140px">
+            <img src="images/utsi.png" width="300px">
+          </div>
+          <p>
+            The <a href="https://www.utsi.edu/" target="_blank">University of Tennessee Space Institute (UTSI)</a> is a research and education institution located in Tullahoma,
+            Tennessee. It is a branch of the University of Tennessee System and is dedicated to the advancement of science and
+            technology in space-related fields. UTSI offers graduate degree programs in aerospace engineering, mechanical
+            engineering, and computer science, among others. The institute is also home to several research centers, including the
+            Center for Laser Applications and the Center for Autonomous Systems and Sensors.
+          </p><p>
+            UTSI has a long history of excellence in aerospace engineering, with a focus on propulsion systems, materials science,
+            and space policy. In 2015, UTSI received a $5 million grant from the National Science Foundation to establish the
+            Center for Autonomous Systems and Sensors, which conducts research in the areas of unmanned aerial vehicles (UAVs),
+            robotics, and sensors. The institute also collaborates with NASA on several research projects, including the
+            development of new materials for spacecraft and the study of solar wind interactions with Earth's magnetic field.
+          </p><p>
+            In addition to its academic and research programs, UTSI is also involved in outreach activities aimed at promoting
+            science, technology, engineering, and mathematics (STEM) education. The institute hosts summer camps and workshops for
+            students and teachers, as well as community events such as rocket launches and science fairs. With its strong academic
+            programs, cutting-edge research initiatives, and commitment to STEM education, the University of Tennessee Space
+            Institute is a valuable resource for the state of Tennessee and a leader in the field of aerospace engineering.
+          </p>
+        </div>
+        <div class="cohost_right">
+          <div style="height: 140px">
+            <img src="images/tn_tech.png" width="300px">
+          </div>
+          <p>
+            <a href="https://www.tntech.edu/" target="_blank">Tennessee Tech University</a> is a public university located in Cookeville, Tennessee. It is part of the Tennessee Board of
+            Regents System and offers over 40 undergraduate and 20 graduate degree programs across five colleges. With a student
+            population of over 10,000, Tennessee Tech is one of the largest universities in the region. The university is known for
+            its strong programs in engineering, business, and education.
+          </p><p>
+            The College of Engineering at Tennessee Tech is one of the largest colleges on campus and offers degree programs in a
+            variety of engineering fields, including mechanical engineering, electrical engineering, and civil engineering. The
+            college is also home to the Center for Manufacturing Research, which conducts research in advanced manufacturing
+            techniques and provides technical assistance to industry partners. Tennessee Tech has a long history of excellence in
+            engineering, with alumni working in industries such as aerospace, automotive, and energy.
+          </p><p>
+            Tennessee Tech has also made significant contributions to the field of aerospace engineering. In 2018, the university
+            partnered with NASA's Marshall Space Flight Center to develop a new technology for creating lightweight, high-strength
+            materials for spacecraft. The university is also involved in the design and construction of CubeSats, small satellites
+            that can be used for a variety of scientific purposes. With its strong academic programs, research initiatives, and
+            partnerships with industry and government agencies, Tennessee Tech University is a valuable resource for the state of
+            Tennessee and a leader in the field of engineering and technology.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+
+    <div id="events">
+      <h1>Conference Events</h1>
+      <div class="program"><a href="files/2023_program.pdf" target="_blank">View the 2023 Conference Program</a></div>
+      <hr/>
+
+      <div class="event_image">
+        <img src="images/sunsphere.jpg" width="250px">
+      </div>
+      <div class="event_text">
+        <h2>Monday Night Event</h2>
+        <p>
+          <strong>Monday, 6:00 pm - 8:00 pm</strong><br />
+          <strong>Location: Sunsphere
+            810 Clinch Avenue</strong><br />
+          Come engage with professionals and students from other universities as you compete for prizes and test your knowledge
+          across a variety of topics including aerospace, sports, geography, and more. We will have chips, dip, and refreshments
+          for everyone to enjoy while networking and having fun. This event will take place on Monday night from 6:00 PM until
+          8:00 PM.
+        </p>
+      </div>
+      <div class="clear"></div>
+      <hr />
+
+      <div class="event_text">
+        <h2>Cirrus Aircraft Tour</h2>
+      </div>
+      <div class="event_image">
+        <img src="images/cirrus.png" width="250px">
+      </div>
+      <div class="event_text">
+        <p>
+          The Knoxville location of Cirrus Aircraft is their central hub for customer experiences including new aircraft
+          delivery and Vision Jet Type Rating. Attendees will get to see the inner workings behind providing customers with
+          personal jets.
+        </p>
+        <p>
+          <a href="https://cirrusaircraft.com/about/" target="_blank">Cirrus Aircraft</a>
+        </p>
+      </div>
+      <div class="clear"></div>
+      <hr />
+
+      <div class="event_text">
+        <h2>MDF and Beehive Tour</h2>
+      </div>
+      <div class="event_image">
+        <img src="images/mdf.jpg" width="250px">
+        <img src="images/beehive.jpg" width="250px" class="clear_left">
+      </div>
+      <div class="event_text">
+        <p>
+          The Manufacturing Demonstration Facility (MDF) is an ORNL facility that conducts R&D for the Department of Energy.
+          Their main focus is developing manufacturing processes that are energy and material efficient, highly productive, and
+          cost effective.
+        </p>
+        <p>
+          Beehive Industries' additive manufacturing facility in Knoxville supports their work in the defense and aerospace
+          industries. Students will get to see first hand what it might be like to work in manufacturing in the aerospace field.
+        </p>
+        <p>
+          <a href="https://www.ornl.gov/facility/mdf" target="_blank">Manufacturing Demonstration Facility</a>
+        </p>
+        <p>
+          <a href="https://www.beehive-industries.com/" target="_blank">Beehive Induestries</a>
+        </p>
+      </div>
+      <div class="clear"></div>
+      <hr/>
+
+      <div class="event_text">
+        <h2>Oak Ridge National Laboratory Tour</h2>
+      </div>
+      <div class="event_image">
+        <img src="images/ornl-sns.png" width="250px">
+        <img src="images/ornl-supercomputer.png" width="250px" class="clear_left">
+      </div>
+      <div class="event_text">
+        <p>
+          This tour will be on ORNL's main campus and will take the attendees to two different facilities. One facility is the
+          Spallation Neutron Source where neutrons are separated from mercury and used for a broad range of research
+          applications. The other facility houses the Summit and Frontier supercomputers which are two of the fastest
+          supercomputers in the world.
+        </p>
+        <p>
+          <a href="https://www.ornl.gov/" target="_blank">Oak Ridge National Laboratory</a>
+        </p>
+        <p>
+          <a href="https://neutrons.ornl.gov/sns" target="_blank">Spallation Neutron Source</a>
+        </p>
+      </div>
+      <div class="clear"></div>
+      
+  </div>
+
+  <div id="proceedings">
+      <h1>Conference Proceedings</h1>
+      <div class="program"><a href="files/2023_program.pdf" target="_blank">View the 2023 Conference Program</a></div>
+
+      <div id="categories">
+        <h3><a href="#">Technical Paper - Undergraduate</a></h3>
+        <div>
+          <table class="hor-minimalist-a">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Presenters</th>
+                <th>University</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td class='proc_title'><a href='manuscripts/71337.pdf' target='_blank'>A web-based lunar topography visualization tool for surface mission planning</a></td><td class='proc_presenter'>Alfonso Lagares de Toledo</td><td class='proc_school'>Georgia Institute of Technology</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71361.pdf' target='_blank'>Aerodynamic Efficiency Analysis of Small-Scale Wind Turbine Blades</a></td><td class='proc_presenter'>Tyler Rush</td><td class='proc_school'>University of Georgia</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/70917.pdf' target='_blank'>Aeroelastic Limit Cycle Oscillation Analysis of Two Geometrically Identical Wings with Differing Mass Properties</a></td><td class='proc_presenter'>Ethan Sites</td><td class='proc_school'>North Carolina State University</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/69792.pdf' target='_blank'>An Analysis of the Filter Kernel of TPIV</a></td><td class='proc_presenter'>Andrew Shi</td><td class='proc_school'>Georgia Institute of Technology</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71382.pdf' target='_blank'>An Implementation of the A* Search Algorithm for Dynamic Message Routing in Homogeneous Communication Satellite Networks</a></td><td class='proc_presenter'>Alexandra Ramotar</td><td class='proc_school'>Georgia Institute of Technology</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/70748.pdf' target='_blank'>Carbon Nanotube Chip Applications in Electric Propulsion Systems for Nanosatellites</a></td><td class='proc_presenter'>Kendall Seefried</td><td class='proc_school'>Georgia Institute of Technology</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71967.pdf' target='_blank'>Design and Performance Analysis of a CO2 Ejection system</a></td><td class='proc_presenter'>Nurettin Aslan</td><td class='proc_school'>University of Florida</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71965.pdf' target='_blank'>Designing an Arduino-based Rocket Flight Computer for Embedded Systems Education</a></td><td class='proc_presenter'>Joseph Telaak</td><td class='proc_school'>University of South Carolina</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71313.pdf' target='_blank'>Effect of Gust and Pitch on Airfoil Lift Studied Using a Discrete Vortex Simulation</a></td><td class='proc_presenter'>Nitin Chitrala; Yi Tsung Lee</td><td class='proc_school'>North Carolina State University</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/70993.pdf' target='_blank'>Exploring Interactive Methods for Structural Analysis Optimization Problems</a></td><td class='proc_presenter'>Surya Venkatram </td><td class='proc_school'>Georgia Institute of Technology</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/70057.pdf' target='_blank'>Impact of Surface Modification on Wakes of Two-dimensional Cylinders</a></td><td class='proc_presenter'>Brandon Guiseppi; Kaylee Rivers</td><td class='proc_school'>Tuskegee University</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71279.pdf' target='_blank'>Magnetohydrodynamic drive for water-based CubeSat propulsion</a></td><td class='proc_presenter'>Macia Monfort Castillo</td><td class='proc_school'>Georgia Institute of Technology</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71299.pdf' target='_blank'>Multi-fidelity assessment of atmospheric boundary layer observations through clustering machine learning</a></td><td class='proc_presenter'>Eric Enright; Austin Aguilar</td><td class='proc_school'>University of Memphis</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71342.pdf' target='_blank'>Simulated Design of an MPC Controller for Rocket Vertical Landing</a></td><td class='proc_presenter'>Jiyansh Agarwal</td><td class='proc_school'>University of Florida</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/70968.pdf' target='_blank'>V-Tailed Transatlantic Business Jet</a></td><td class='proc_presenter'>Kerem Tekin; Tristan Guerin</td><td class='proc_school'>University of South Carolina</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71244.pdf' target='_blank'>Validation and sub-grid scale characteristics of an upwind, five-equation, two-phase model for cavitating flows</a></td><td class='proc_presenter'>Sophie Wood</td><td class='proc_school'>University of Memphis</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71338.pdf' target='_blank'>Wake Surfing: Vortex Wake Energy Recovery for sUAS's</a></td><td class='proc_presenter'>Joseph Westermeyer</td><td class='proc_school'>University of Alabama</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3><a href="#">Technical Paper - Masters</a></h3>
+        <div>
+          <table class="hor-minimalist-a">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Presenters</th>
+                <th>University</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td class='proc_title'><a href='manuscripts/70962.pdf' target='_blank'>A Computational Diffusion Model to Predict Accelerated Corrosion Propagation</a></td><td class='proc_presenter'>Daniel Hampson</td><td class='proc_school'>University of Georgia</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/70703.pdf' target='_blank'>Aeroacoustic Structures within a Supersonic Cavity</a></td><td class='proc_presenter'>John Parrish; Tushar Srivastava</td><td class='proc_school'>North Carolina State University</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/69279.pdf' target='_blank'>Clauser Plot Method of Analysis on Molecular Tagging Velocimetry Data</a></td><td class='proc_presenter'>Oriana Palumbo</td><td class='proc_school'>University of Tennessee Space Institute</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/70885.pdf' target='_blank'>Indentation Loading of Prismatic Cell Lithium-ion Battery Modules</a></td><td class='proc_presenter'>Sida Xu</td><td class='proc_school'>Embry-Riddle University - Daytona Beach, FL</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71953.pdf' target='_blank'>Investigation of Single Luminophore, Polymer-Ceramic Pressure Sensitive Paint for High Speed Wind Tunnel Testing</a></td><td class='proc_presenter'>Jamison Murphree</td><td class='proc_school'>University of Tennessee Space Institute</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71234.pdf' target='_blank'>The Future of Aerospace Design and Manufacturing through Self-Assembly and 4D Printing</a></td><td class='proc_presenter'>Sid Amonchomchupong</td><td class='proc_school'>University of Alabama - Huntsville</td></tr>          </table>
+            </tbody>
+          </table>
+        </div>
+
+        <h3><a href="#">Technical Paper - Team</a></h3>
+        <div>
+          <table class="hor-minimalist-a">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Presenters</th>
+                <th>University</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td class='proc_title'><a href='manuscripts/71354.pdf' target='_blank'>Acoustic Dampening of Propellers</a></td><td class='proc_presenter'>Bartlet Pollock; Nate Wylie; CJ Jordan</td><td class='proc_school'>Mississippi State University</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/70953.pdf' target='_blank'>BiPROP Rocket Competition Team</a></td><td class='proc_presenter'>Emma Brackett; Jacob Smith; Nathaniel Cerletty</td><td class='proc_school'>Florida Institute of Technology</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/72182.pdf' target='_blank'>Fiber Optic Force Sensing in Wind Tunnels</a></td><td class='proc_presenter'>Sephia Hendrix; Heather Everhart; Sephia Hendrix</td><td class='proc_school'>Mississippi State University</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71362.pdf' target='_blank'>Lunar Descent Vehicle Simulation</a></td><td class='proc_presenter'>Victoria Rutledge; Christian Mounce; Chase Kincaid</td><td class='proc_school'>Mississippi State University</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71317.pdf' target='_blank'>Multi-Disciplinary Applications and Practicality of Solar Sails</a></td><td class='proc_presenter'>Jaxon Strank; Nathan Tardy; Victor Zaharia</td><td class='proc_school'>Florida Institute of Technology</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/70976.pdf' target='_blank'>Numerical Modeling for Development of a Student Developed Self-Pressurizing Liquid Bipropellant Rocket Engine</a></td><td class='proc_presenter'>Jack Slayden; Elias Perez; Austin Morse</td><td class='proc_school'>University of Alabama - Huntsville</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71303.pdf' target='_blank'>Payload Design of RHOK-SAT, a 1U CubeSat to Characterize Perovskites in LEO</a></td><td class='proc_presenter'>Olivia Kaufmann; Benjamin Wilson; Jessica Hamer</td><td class='proc_school'>Rhodes College</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71308.pdf' target='_blank'>Remote Sensing of the Mississippi River Watershed Region using 3 CubeSats</a></td><td class='proc_presenter'>Jack Parr; Matthew Jiles</td><td class='proc_school'>Mississippi State University</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71267.pdf' target='_blank'>Software Design of RHOK-SAT, a 1U CubeSat to Characterize Perovskites in LEO</a></td><td class='proc_presenter'>Anas Matar; Marouf Mohammad Paul; Zheng Yu Wong</td><td class='proc_school'>Rhodes College</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71285.pdf' target='_blank'>Team Flying Tigers Design, Build, Fly Competition</a></td><td class='proc_presenter'>James Liu; John Hamer; Ross Jenner</td><td class='proc_school'>University of Memphis</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71395.pdf' target='_blank'>Wildfire Identification Via CMOS Sensor Fitted High-Altitude Long Endurance (HALE) System</a></td><td class='proc_presenter'>Michael Smith; Sam Cupples; Kyle Lindsey</td><td class='proc_school'>Mississippi State University</td></tr>          </table>
+            </tbody>
+          </table>
+        </div>
+
+        <h3><a href="#">Freshman/Sophomore Open Topic</a></h3>
+        <div>
+          <table class="hor-minimalist-a">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Presenters</th>
+                <th>University</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td class='proc_title'><a href='manuscripts/70864.pdf' target='_blank'>Analysis of Cost Reduction of Space Travel with the Scramjet</a></td><td class='proc_presenter'>Mason Roddy</td><td class='proc_school'>University of Tennessee</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71358.pdf' target='_blank'>History of Spacecraft Fuel Sloshing</a></td><td class='proc_presenter'>Jesus Delgado</td><td class='proc_school'>Florida Institute of Technology</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/70625.pdf' target='_blank'>Ocean World Exploration Rover</a></td><td class='proc_presenter'>Beck Kerridge; Colin Zelasko</td><td class='proc_school'>Florida Institute of Technology</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71129.pdf' target='_blank'>Review of Autonomous Technologies for a Crewed Exploration of the Lunar South Pole</a></td><td class='proc_presenter'>James Cross</td><td class='proc_school'>University of Florida</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71410.pdf' target='_blank'>The Future of Deep Space Flight using Ion Propulsion</a></td><td class='proc_presenter'>Whitney Reinkoester</td><td class='proc_school'>Florida Institute of Technology</td></tr>          </table>
+            </tbody>
+          </table>
+        </div>
+
+        <h3><a href="#">Community Outreach</a></h3>
+        <div>
+          <table class="hor-minimalist-a">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Presenters</th>
+                <th>University</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td class='proc_title'><a href='manuscripts/71298.pdf' target='_blank'>Delta Tech Ops Tour</a></td><td class='proc_presenter'>Claire Keller; Ethan Traub</td><td class='proc_school'>Georgia Institute of Technology</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/71417.pdf' target='_blank'>Florida Tech Outreach</a></td><td class='proc_presenter'>Matthew House; Sidney Causey</td><td class='proc_school'>Florida Institute of Technology</td></tr>
+              <tr><td class='proc_title'><a href='manuscripts/72161.pdf' target='_blank'>University of Tennessee AIAA Professional Development Effort</a></td><td class='proc_presenter'>Chadwicke Bolding; Sreya Kumpatla</td><td class='proc_school'>University of Tennessee</td></tr>          </table>
+            </tbody>
+          </table>
+        </div>
+
+        <h3><a href="#">Exhibition</a></h3>
+        <div>
+          <table class="hor-minimalist-a">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Presenters</th>
+                <th>University</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td class='proc_title'>Utilizing a Water Table for the Analysis of Compressible, Supersonic Flow</td><td class='proc_presenter'>Jeffrey Whitenack</td><td class='proc_school'>North Carolina State University</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="https://www.aiaa.org/events-learning/event/2023/03/27/default-calendar/2023-region-ii-student-conference"
+      target="_blank">AIAA Region II Student Conference</a>
+  </div>
+</body>
+
+</html>

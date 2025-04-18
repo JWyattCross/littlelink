@@ -33,12 +33,23 @@
   </head>
 
   <style>
-    body {
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
       background-image: url("images/KTPA_Flights_Startrails.JPG");
       background-repeat: no-repeat;
-      background-attachment: fixed;
       background-size: cover;
       background-position: center;
+    }
+    
+    body {
+      background-color: transparent;
+      position: relative;
     }
   </style>
 
